@@ -10,7 +10,7 @@ app.get('/', (req, res) => {res.render('Home')})
 
 
 app.get('*',(req, res) => {
-    res.send('<h1>It seems this page does not exist</h1>')
+    res.render('error404')
 })
 app.listen(process.env.PORT)
 

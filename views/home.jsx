@@ -11,6 +11,9 @@ function home() {
         <a href="/places">
           <button className="btn-primary">Places Page</button>
         </a>
+        <div>
+          <img src="/images/kyle-johnson-TEZZzuQTt8g-unsplash.jpg"/>
+        </div>
       </body>
     </Def>
   )
